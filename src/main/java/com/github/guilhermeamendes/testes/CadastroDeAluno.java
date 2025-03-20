@@ -21,12 +21,7 @@ public class CadastroDeAluno {
         this.alunoDao = new AlunoDao(entityManager);
     }
 
-    public static void main(String[] args) {
-        CadastroDeAluno app = new CadastroDeAluno();
-        app.executarPrograma();
-    }
-
-    private void executarPrograma() {
+    public void executarPrograma() {
         int opcao;
         do {
             exibirMenu();
